@@ -25,6 +25,9 @@ Forked from [ant-design](https://github.com/ant-design/ant-design)
 
 ## Install
 
-```bash
-npm install hx-antd
-```
+        npm i --registry https://r.cnpmjs.org/ --save hx-antd
+
+## Usage
+
+        import { DatePicker } from 'hx-antd';
+        import 'hx-antd/lib/date-picker/style/css';
